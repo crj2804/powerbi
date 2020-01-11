@@ -1,0 +1,20 @@
+{
+  "name": "powerbi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -w server.js server.js",
+    "mockapi": "json-server -p 3333 -w db.json db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "json-server": "^0.15.1",
+    "nodemon": "^2.0.2"
+  }
+}
